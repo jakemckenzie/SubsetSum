@@ -58,8 +58,8 @@ int main(){
     printf("\ntrue? %d\n",subsetSum(B,3,3));
     printf("(");
     int C[] = {1,4,2,3};
-    for (int k = 0; k < 5; k++) {
-        if (k == 4) printf("%d",C[k]);
+    for (int k = 0; k < 4; k++) {
+        if (k == 3) printf("%d",C[k]);
         else printf("%d,",C[k]);
     }
 	printf(")\n");
